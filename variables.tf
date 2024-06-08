@@ -12,6 +12,7 @@ variable "environments" {
       size    = string
       name    = string
       db_type = string
+      count   = number
     }))
   }))
 }

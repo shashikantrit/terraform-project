@@ -6,12 +6,14 @@ environments = {
         size    = "xsmall"
         name    = "wks"
         db_type = "mysql"
+        count   = 1
       }
       clint = {
         type    = "instance"
         size    = "xsmall"
         name    = "wks"
         db_type = "mysql"
+        count   = 1
       }
     }
   }
@@ -22,12 +24,14 @@ environments = {
         size    = "large"
         name    = "wks"
         db_type = "mysql"
+        count   = 2
       }
       performance = {
         type    = "instance"
         size    = "large"
         name    = "wks"
         db_type = "mysql"
+        count   = 2
       }
     }
   }
@@ -38,6 +42,7 @@ environments = {
         size    = "xlarge"
         name    = "wks"
         db_type = "mysql"
+        count   = 3
       }
     }
   }

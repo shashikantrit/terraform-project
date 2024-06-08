@@ -8,9 +8,9 @@ provider "aws" {
 
 module "environments" {
   source = "./modules/object"
-
   for_each = var.environments
 
   environment = each.key
   config      = each.value
 }
+
